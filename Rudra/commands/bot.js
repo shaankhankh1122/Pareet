@@ -22,7 +22,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    mess = "{name}"
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
-      body: `🔶${name}🔶,  \n\n『\n   ${rand} 』\n\n❤️𝙲𝚛𝚎𝚍𝚒𝚝𝚜 : 𝐏𝐀𝐑𝐄𝐄𝐓 𝐁𝐎𝐓🌹 `
+      body: `🔶${name}🔶,  \n\n『\n   ${rand} 』\n\n❤️𝙲𝚛𝚎𝚍𝚒𝚝𝚜 : 𝐎𝐖𝐍𝐄𝐑 𝐓𝐇𝐀𝐁𝐇𝐈 𝐏𝐑𝐄𝐄𝐓 😏`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
