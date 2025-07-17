@@ -73,7 +73,7 @@ module.exports. run = function({ api, event, args, getText }) {
     for (let item of returnArray) msg += `「 ${++i} 」${prefix}${item}\n`;
     
     
-    const siu = `Command list 📄\ntype /help (command name) ✨\n󰂆 󰟯 󰟰 󰟷 󰟺 󰟵 󰟫`;
+    const siu = `Command list 📄\ntype /help (command name) ✨\n 𝐎𝐖𝐍𝐄𝐑 𝐓𝐇𝐀𝐁𝐇𝐈 𝐏𝐑𝐄𝐄𝐓 󰟯 󰟰 󰟷 󰟺 󰟵 󰟫`;
     
  const text = `\nPage (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n`;
  
